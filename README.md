@@ -33,6 +33,28 @@ This project analyzes Formula 1 race data with a focus on tire degradation using
   ```
 - Explore and run the cells to analyze tire degradation trends, visualize data, and generate insights.
 
+## How to Run This Project
+
+1. **Install dependencies**  
+   Make sure you have Python 3.8+ installed. Then, install the required packages:
+   ```bash
+   pip install fastf1 pandas numpy matplotlib jupyter
+   ```
+
+2. **Start Jupyter Notebook**  
+   In your terminal, run:
+   ```bash
+   jupyter notebook TireDegradation.ipynb
+   ```
+   This will open the notebook in your browser.
+
+3. **Run the Analysis**  
+   - Go through the cells in `TireDegradation.ipynb` sequentially.
+   - The notebook will load data from the `Cache/` directory and CSV files, perform analysis, and display visualizations.
+
+4. **(Optional) Update Data**  
+   If you want to analyze new races, add FastF1 cache files to the appropriate `Cache/` subfolders and update the CSVs as needed.
+
 ## Data Sources
 
 - [FastF1](https://theoehrly.github.io/Fast-F1/) for session and timing data.
